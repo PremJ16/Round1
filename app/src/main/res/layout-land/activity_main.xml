@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginBottom="8sp"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -27,6 +28,8 @@
                 android:id="@+id/backgrouncounterTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8sp"
+                android:layout_marginBottom="8sp"
                 android:layout_weight="1"
                 android:text="Background Count"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
@@ -35,6 +38,8 @@
                 android:id="@+id/backgroundcounter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8sp"
+                android:layout_marginBottom="8sp"
                 android:layout_weight="1"
                 android:text="TextView"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
@@ -51,6 +56,8 @@
                 android:id="@+id/buttoncounterTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8sp"
+                android:layout_marginBottom="8sp"
                 android:layout_weight="1"
                 android:text="Button Count"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
@@ -60,6 +67,8 @@
                 android:id="@+id/buttoncounter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8sp"
+                android:layout_marginBottom="8sp"
                 android:layout_weight="1"
                 android:text="TextView"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
@@ -71,10 +80,10 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:onClick="onbuttonclick"
         android:text="Click"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/vertical_layout"
-        app:layout_constraintStart_toStartOf="@+id/vertical_layout"
-        app:layout_constraintTop_toTopOf="@+id/vertical_layout" />
+        app:layout_constraintStart_toStartOf="@+id/vertical_layout" />
 </androidx.constraintlayout.widget.ConstraintLayout>

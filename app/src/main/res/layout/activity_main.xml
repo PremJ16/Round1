@@ -20,6 +20,8 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"
             android:onClick="onbuttonclick"
             android:text="Click" />
 
@@ -34,6 +36,8 @@
                 android:id="@+id/buttoncounterTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8sp"
+                android:layout_marginBottom="8sp"
                 android:layout_weight="1"
                 android:text="Button Count"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
@@ -43,6 +47,8 @@
                 android:id="@+id/buttoncounter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8sp"
+                android:layout_marginBottom="8sp"
                 android:layout_weight="1"
                 android:text="TextView"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
@@ -58,6 +64,8 @@
                 android:id="@+id/backgrouncounterTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8sp"
+                android:layout_marginBottom="8sp"
                 android:layout_weight="1"
                 android:text="Background Count"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
@@ -66,6 +74,8 @@
                 android:id="@+id/backgroundcounter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8sp"
+                android:layout_marginBottom="8sp"
                 android:layout_weight="1"
                 android:text="TextView"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
