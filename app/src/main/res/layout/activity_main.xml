@@ -34,7 +34,7 @@
 
             <TextView
                 android:id="@+id/buttoncounterTextView"
-                android:layout_width="wrap_content"
+                android:layout_width="50sp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8sp"
                 android:layout_marginBottom="8sp"
@@ -62,7 +62,7 @@
 
             <TextView
                 android:id="@+id/backgrouncounterTextView"
-                android:layout_width="79dp"
+                android:layout_width="50sp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8sp"
                 android:layout_marginBottom="8sp"

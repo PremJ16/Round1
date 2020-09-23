@@ -54,7 +54,7 @@
 
             <TextView
                 android:id="@+id/buttoncounterTextView"
-                android:layout_width="wrap_content"
+                android:layout_width="82dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8sp"
                 android:layout_marginBottom="8sp"
