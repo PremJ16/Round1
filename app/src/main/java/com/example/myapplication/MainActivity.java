@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
         Log.i(Log_I_key,"Inside onSaveInstances()");
         outState.putInt(Button_count_key,this.buttoncount );
-        outState.putInt(Backgrount_count_key,backgroundcount);
+        outState.putInt(Backgrount_count_key,backgroundcount-1);
     }
 
     @Override
