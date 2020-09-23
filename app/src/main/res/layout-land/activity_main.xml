@@ -13,8 +13,8 @@
         android:layout_margin="8dp"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="138dp">
 
 
         <LinearLayout
@@ -65,12 +65,16 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
         </LinearLayout>
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="onbuttonclick"
-            android:text="Click" />
-
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onbuttonclick"
+        android:text="Click"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/vertical_layout"
+        app:layout_constraintStart_toStartOf="@+id/vertical_layout"
+        app:layout_constraintTop_toTopOf="@+id/vertical_layout" />
 </androidx.constraintlayout.widget.ConstraintLayout>
