@@ -16,7 +16,6 @@
         android:layout_marginLeft="12sp"
         android:layout_marginTop="8sp"
         android:layout_weight="1"
-        android:text="TextView"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintStart_toEndOf="@+id/backgrouncounterTextView"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,7 +27,7 @@
         android:layout_marginLeft="4sp"
         android:layout_marginTop="8sp"
         android:layout_weight="1"
-        android:text="Background Count"
+        android:text="@string/background_count"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -40,7 +39,6 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="8sp"
         android:layout_weight="1"
-        android:text="TextView"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintStart_toEndOf="@+id/buttoncounterTextView"
         app:layout_constraintTop_toBottomOf="@+id/backgroundcounter" />
@@ -52,7 +50,7 @@
         android:layout_marginLeft="4sp"
         android:layout_marginTop="8sp"
         android:layout_weight="1"
-        android:text="Button Count"
+        android:text="@string/button_count"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@android:color/background_dark"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:onClick="onbuttonclick"
-        android:text="Click"
+        android:text="@string/button_label"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

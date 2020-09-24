@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="button_count">Button Count</string>
+    <string name="background_count">Background Count</string>
+    <string name="button_label">CLICK</string>
+
 </resources>
