@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     static final String Log_I_key = "log_I_key";//created log for own understanding
     private SharedPreferences sharedPreferences;
     static final String sharedPreferencesPath = "com.example.android.myapplication";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         this.buttoncounterTextView = (TextView) findViewById(R.id.buttoncounter);//feeding the value
         this.backgroundcounterTextView = (TextView) findViewById(R.id.backgroundcounter);
     }
-
     @Override
     protected void onPause() {
         super.onPause();
@@ -44,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
         sharedPreferencesEditor.putInt(Backgrount_count_key, backgroundcount);
         sharedPreferencesEditor.apply();
     }
-
     @Override
     protected void onResume() {
         super.onResume();
